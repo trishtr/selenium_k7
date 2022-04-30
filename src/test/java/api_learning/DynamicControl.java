@@ -36,7 +36,7 @@ public class DynamicControl {
 
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20l));
             wait.until(ExpectedConditions.invisibilityOf(driver.findElement(By.id("loading"))));
-            inputElem.sendKeys("testingggggggggggggg")
+            inputElem.sendKeys("testingggggggggggggg");
 
 
         }
