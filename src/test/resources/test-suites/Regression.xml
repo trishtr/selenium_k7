@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression" >
+    <test name="Footer Test" >
+        <classes>
+            <class name="test.testng.FooterTest" />
+
+        </classes>
+    </test>
+    <test name="Header Test" >
+        <classes>
+            <class name="test.testng.HeaderTest" />
+
+        </classes>
+    </test>
+
+
+</suite>
